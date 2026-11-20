@@ -1,0 +1,48 @@
+# Keil 编译生成的输出文件夹
+MDK-ARM/Objects/
+MDK-ARM/Listings/
+MDK-ARM/DebugConfig/
+MDK-ARM/RTE/
+*.axf
+*.hex
+*.bin
+*.o
+
+# 你截图里那些不该传的垃圾文件/文件夹
+pack/
+amd64/
+x86/
+docs/
+stlink/
+*.exe
+*.cat
+*.inf
+*.bat
+*.zip
+
+# Keil 生成的各种中间文件和目标文件
+*.o
+*.d
+*.crf
+*.axf
+*.hex
+*.bin
+*.lst
+*.map
+*.dep
+*.htm
+*.lnp
+*.iex
+
+# Keil 用户的个人界面配置文件（不影响代码，但每个人不一样）
+*.uvguix.*
+*.uvoptx
+*.scvd
+
+# VSCode 或 VS 的配置文件夹
+.vscode/
+.vs/
+
+# 系统生成的文件
+Thumbs.db
+.DS_Store

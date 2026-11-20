@@ -1,0 +1,16 @@
+﻿===============================================================================
+This file contains details of any applicable specific extensions, limitations 
+or other variations to the terms of the End User License Agreement that 
+accompanies this release of 'Keil MDK'.
+=============================================================================== 
+MDK-Community Edition:
+
+Use of the free-of-charge version of the Arm Tool ‘MDK-Community Edition’ is 
+limited to use by (i) individual consumers, (ii) academic institutions, and 
+(iii) organisations with less than 10 members of staff and an average annual 
+revenue of less than 500,000 (five hundred thousand) US Dollars.
+
+You are not permitted to use MDK-Community Edition in relation to or in 
+connection with the provision of products and/or services to a third party.
+------------------------------------------------------------------------------
+END OF FILE: supplementary_terms.txt

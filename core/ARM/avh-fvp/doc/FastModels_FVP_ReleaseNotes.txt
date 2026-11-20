@@ -1,0 +1,133 @@
+
+==============================================================================
+Fast Models 11.28 FVP Release Notes
+==============================================================================
+
+------------
+Introduction
+------------
+
+This is a package of Fixed Virtual Platforms (FVPs) based on Fast Models
+11.28.
+
+Detailed documentation can be found at:
+https://developer.arm.com/products/system-design/fast-models/docs
+
+------------
+Installation
+------------
+
+For installation instructions, see the chapter "Installing Fast Models" in the
+Fast Models User Guide:
+https://developer.arm.com/documentation/100965/latest/Installing-Fast-Models/Installation
+
+A significant number of the examples make use of images containing third
+party IP. These have been split out into a separate 'Third Party IP' package
+that can be downloaded from:
+  * Product Download Hub:
+    https://developer.arm.com/downloads
+Not installing these images will mean examples that require Dhrystone or the Linux
+images will not be functional, and some other features might not work.
+
+-----------------
+What is supported
+-----------------
+
+Fast Models FVPs support the following operating systems:
+
+On x86 hosts:
+* RedHat Enterprise Linux 7
+* RedHat Enterprise Linux 8
+* Ubuntu 18.04 LTS
+* Ubuntu 20.04 LTS
+* Windows 10
+
+This release provides beta support for AArch64 hosts with:
+* RedHat Enterprise Linux 8
+* Ubuntu 20.04 LTS
+
+FVPs shipped with this package are built with Visual Studio 2019 and GCC 9.3.0.
+
+--------------------
+Feedback and support
+--------------------
+
+Your feedback is important to us, and you are welcome to send us defect reports and
+suggestions for improvement on any aspect of the product.
+
+Please visit https://developer.arm.com/support and open a case with feedback or
+support issues, using your work or academic email address if possible. Where
+appropriate, please provide the following information:
+- The product name.
+- The product revision or version.
+- An explanation with as much information as you can provide. Include symptoms and
+  diagnostic procedures if appropriate, and if possible provide an example
+  virtual platform that demonstrates the issue you are reporting.
+
+-------------------------
+Notices of future changes
+-------------------------
+
+* CPU cluster configurations with a static number of cores defined are
+  now deprecated. Customers will need to migrate their systems to equivalent
+  CPU clusters that support a configurable number of cores using the
+  "NUM_CORES" parameter.
+
+  Example platforms and CPU clusters with a statically-defined number of
+  cores will be retired in future releases.
+
+--------------------------------------------------------
+Changes in Fast Models 11.28
+--------------------------------------------------------
+
+* The defaults of some AEM parameters on FVP_Base platforms have been changed
+  to enable faster simulation performance by default:
+  * The default value of cache_state_modelled has been changed from true to
+    false.
+  * The default value of cluster-level parameter check_memory_attributes has
+    been changed from true to false.
+  * The default value of cluster-level parameter stage12_tlb_size has been
+    changed from 128 to 1024.
+  These changes align the defaults with those used for non-AEM models. The old
+  values can still be set manually and function the same as before.
+
+* From early 2023, new licenses generated for Fast Models will provide
+  an alternative and simplified set of license features for enabling the
+  IP models. This will mean that no further license updates are needed
+  as new models become available in future releases. Licenses containing
+  the existing set of features will continue to work, however users are
+  encouraged to regenerate and deploy updated licenses after this point
+  to benefit from this change and to enable access to future models.
+
+* The following models are not yet at full release quality. However, they
+  have been added to the Fast Models Portfolio to make them available. Please
+  see the documentation for the individual components, which describes their
+  quality:
+  - Cortex-R82
+  - Cortex-A34
+  - NI-700
+
+* Support has been added for the following models:
+  - Cortex-X4
+  - Cortex-A720
+  - Cortex-A520
+  - Mali-G720
+
+* The Cortex-R52+ model is now fully supported.
+
+-----------
+Limitations
+-----------
+
+For more information on model limitations please refer to the Fast Models
+Reference Guide in this release package or located at:
+https://developer.arm.com/documentation/100964/latest
+
+Date:  2025/02/26 17:04:29 GMT
+Build: 11.28:32
+
+Confidential
+
+==============================================================================
+END
+==============================================================================

@@ -1,0 +1,32 @@
+name: CMSIS-Toolbox
+version: 2.10.0
+host: windows-amd64
+timestamp: '2025-06-13 11:07:05'
+binaries:
+  cbridge:
+    version: 0.9.16
+    sha256: d71efe9ac0fd6aca3dcb6b8be80a9e84a58d119fceec9a3a7a637f4dbb6eab78
+  cbuild:
+    version: 2.10.0
+    sha256: ec9aae28b834eb38ee3a0e896b91f9d274be75d06a1293ae46f64e682c499f2f
+  cbuild2cmake:
+    version: 0.9.7
+    sha256: 2109b35ea3cddc7f870ef3d7be68a1ab8d22c913b65e2a4b682ca94fe562603d
+  cbuildgen:
+    version: 2.10.0
+    sha256: d19ad73d848b159609ed04da11fd8bd268170251855af03371601777d51720eb
+  cpackget:
+    version: 2.1.8
+    sha256: c29bf3b0d5035a6f0832cd0bf6d14220ca85a1572e94282a1184ebe6fcd46f5e
+  csolution:
+    version: 2.10.0
+    sha256: c190d7c8fc85e86f2b99f7945c9e38d0523d420b05911a72a4646d45987093d6
+  packchk:
+    version: 1.4.4
+    sha256: 56dbcabc95d54c03ab5b9b0e64520e1ccbfa48067d50ad80b32da773a6fb666c
+  svdconv:
+    version: 3.3.48
+    sha256: 8ba24bb79a1fb21febad747b626aea37d0ac57845914050afc5fe25ad12dc793
+  vidx2pidx:
+    version: 0.0.5
+    sha256: e7d9003ba4efdc832bb160defa2b8175d932ba8fce51567d2c7d3b26ef341030
